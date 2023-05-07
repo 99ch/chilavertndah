@@ -501,6 +501,7 @@ body.nav-active { overflow: hidden; }
   position: relative;
   max-width: max-content;
   margin-inline: auto;
+  border-radius: 500px;
 }
 
 .banner-outline::after {
@@ -509,7 +510,7 @@ body.nav-active { overflow: hidden; }
   width: 100%;
   height: 100%;
   outline: 1px solid var(--border-eerie-black);
-  border-radius: var(--radius-pill);
+  border-radius: 500px;
 }
 
 .hero-banner {
