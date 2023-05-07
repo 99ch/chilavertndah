@@ -250,7 +250,7 @@ body.nav-active { overflow: hidden; }
 }
 
 .h1 {
-  font-size: var(--fontSize-2);
+  font-size: var(--fontSize-4);
   line-height: 1.2;
 }
 
@@ -618,8 +618,8 @@ body.nav-active { overflow: hidden; }
 
 .tab-btn {
   width: 100%;
-  padding-block: 16px;
-  border-block-end: 1px solid var(--border-eerie-black);
+  padding-block: 20px;
+  border-block-end: 1px solid var( --border-eerie-black); 
   transition: var(--transition-1);
 }
 
@@ -642,7 +642,7 @@ body.nav-active { overflow: hidden; }
 
 .tab-content .grid-list {
   display: grid;
-  gap: 30px;
+  
 }
 
 .tab-content .section-title { margin-block-end: 30px; }
@@ -655,7 +655,7 @@ body.nav-active { overflow: hidden; }
 .social-list {
   display: flex;
   align-items: center;
-  gap: 20px;
+  gap: 50px;
 }
 
 .social-link { color: var(--text-white); }
@@ -942,8 +942,6 @@ textarea.input-field {
 
 
 
-
-
 /*-----------------------------------*\
   #MEDIA QUERIES
 \*-----------------------------------*/
@@ -952,7 +950,7 @@ textarea.input-field {
  * responsive for large than 575px screen
  */
 
-@media (min-width: 575px) {
+ @media (min-width: 575px) {
 
   /**
    * CUSTOM PROPERTY
@@ -1497,4 +1495,3 @@ textarea.input-field {
   .hero .container { grid-template-columns: 1fr 0.85fr; }
 
 }
-
