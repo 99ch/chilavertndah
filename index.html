@@ -9,7 +9,7 @@
   <!-- 
     - primary meta tags
   -->
-  <title>Chilavert - Dévéloppeur,Designeur Basé à Cotonou</title>
+  <title>Chilavert - Dévéloppeur,Designer Basé à Cotonou</title>
 
 
  
@@ -31,12 +31,11 @@
     - preload images
   -->
   <link rel="preload" as="image" href="./assets/images/hero-banner.jpg">
-  <link rel="preload" as="image" href="./assets/images/hero-shape-1.png">
-  <link rel="preload" as="image" href="./assets/images/hero-shape-2.png">
+ 
 
 </head>
 
-<body id="top">
+<body  id="top">
 
   <!-- 
     - #PRELOADER
@@ -87,8 +86,10 @@
             <a href="#about" class="navbar-link" data-nav-link>À propos</a>
           </li>
 
+          
+
           <li>
-            <a href="#project" class="navbar-link" data-nav-link>Projets reçent</a>
+            <a href="#project" class="navbar-link" data-nav-link>Projets reçents</a>
           </li>
 
 
@@ -117,65 +118,88 @@
     </div>
   </header>
 
+  
 
+    <!-- 
+      - #HERO
+    -->
 
+    <section class="hero text-center" id="home">
+      <div class="container">
 
+        <div class="banner-outline has-after">
 
-  <main>
-
- 
-
-    <article>
-
-      <!-- 
-        - #HERO
-      -->
-
-      <div class="hero text-center" id="home">
-        <div class="container">
-
-          <div class="banner-outline has-after">
-
-            <div class="hero-banner img-holder has-after" style="--width: 500; --height: 680;" data-tilt>
-              <img src="./assets/images/hero-banner.jpg" width="500" height="680" alt="Drew Hays" class="img-cover">
-            </div>
-
-            <span class="span title">Chilavert N'dah</span>
-
+          <div class="hero-banner img-holder has-after"  data-tilt>
+            <img src="./assets/images/hero-banner.jpg"  class="img-cover">
           </div>
 
-          <div class="hero-content">
-
-            <h1 class="h1 title">Dévéloppeur,Designeur Basé à Cotonou.</h1>
-
-            <div class="wrapper">
-              <a href="./cv/CV-Chilavert.pdf" class="btn btn:hover" download>
-                <span class="span">Télécharger CV</span>
-
-                <ion-icon name="cloud-download-outline" aria-hidden="true"></ion-icon>
-              </a>
-
-              <p class="hero-text">
-                "De l'appareil à la périphérie et jusqu'au cloud, où que vous soyez, 
-                je fournis mes services tout en assurant la sécurité de vos données."
-              </p>
-            </div>
-
-          </div>
-
-          <img src="./assets/images/hero-shape-1.png" width="559" height="232" alt="shape" class="shape shape-1">
-
-          <img src="./assets/images/hero-shape-2.png" width="1358" height="497" alt="shape" class="shape shape-2">
+          <span class="span title">Chilavert N'dah</span>
 
         </div>
+<!-- 
+        <div class="hero-content">
+
+          <h1 class="h1 title">Dévéloppeur,Designeur Basé à Cotonou.</h1>
+
+          <div class="wrapper">
+            <a href="./cv/CV-Chilavert.pdf" class="btn btn:hover" download>
+              <span class="span">Télécharger CV</span>
+
+              <ion-icon name="cloud-download-outline" aria-hidden="true"></ion-icon>
+            </a>
+
+            <p class="hero-text">
+              "De l'appareil à la périphérie et jusqu'au cloud, où que vous soyez, 
+              je fournis mes services tout en assurant la sécurité de vos données."
+            </p>
+          </div>
+
+        </div> 
+
+        <img src="./assets/images/hero-shape-1.png" width="559" height="232" alt="shape" class="shape shape-1">
+
+        <img src="./assets/images/hero-shape-2.png" width="1358" height="497" alt="shape" class="shape shape-2">  -->
+
+      </div>
+    </section>
+
+        
+
+    <section>
+
+      <div class="container">
+        <div class="hero-content">
+
+          <br><br>
+
+          <h1 class="h1 title"><ion-icon name="globe-outline"></ion-icon>Dévéloppeur,Designer Basé à Cotonou.</h1>
+          <br>
+         
+
+          <div class="wrapper">
+            <a href="./cv/CV-Chilavert.pdf" class="btn btn:hover" download>
+              <span class="span">Télécharger CV</span>
+
+              <ion-icon name="cloud-download-outline" aria-hidden="true"></ion-icon>
+            </a>
+
+            <!-- <p class="hero-text">
+              "De l'appareil à la périphérie et jusqu'au cloud, où que vous soyez, 
+              je fournis mes services tout en assurant la sécurité de vos données."
+            </p> -->
+          </div>
+
+        </div> 
+
+
+
       </div>
 
 
+    </section>
+  
 
-
-
-
-      <!-- 
+        <!-- 
         - #SERVICE
       -->
 
@@ -195,7 +219,7 @@
                 <h3 class="card-title">
                   <a href="#">
                     Création de <br>
-                    site Web
+                    sites Web
                   </a>
                 </h3>
 
@@ -210,7 +234,7 @@
                 <h3 class="card-title">
                   <a href="#">
                     Création <br>
-                    d'Application Mobile
+                    d'Applications Mobiles
                   </a>
                 </h3>
 
@@ -253,9 +277,6 @@
       </section>
 
 
-
-
-
       <!-- 
         - #ABOUT
       -->
@@ -272,9 +293,10 @@
               </li>
 
               <li class="tab-btn-item">
-                <button class="tab-btn title h6" data-tab-btn="skillset">Compétances</button>
+                
+                <button class="tab-btn title h6" data-tab-btn="skillset"> voir plus ☞</button>
               </li>
-
+            </ul>
             <div class="tab-content active" data-tab-content="about">
               <div class="grid-list">
 
@@ -290,8 +312,8 @@
                   </h2>
 
                   <p class="section-text">
-                   Je mets tout en oeuvre pour offrir des réalisations uniques et percutantes, qui dépassent les attentes de
-                    mes clients et créent une véritable valeur ajoutée pour leur entreprise.
+                    "De l'appareil à la périphérie et jusqu'au cloud, où que vous soyez, 
+                    je fournis mes services tout en assurant la sécurité de vos données."
                   </p>
 
                   <ul class="about-list">
@@ -343,7 +365,7 @@
                 <div class="skill-content">
 
                   <h3 class="h4 title section-title">
-                    Gentil,Aimable et Ouvert d'esprit.
+                    Compétances:
                   </h3>
 
                   <p class="section-text">
@@ -402,7 +424,7 @@
 
                     <li>
                       <div class="skill-wrapper">
-                        <span class="span">JAVA & Kotlin ; C ; C++ ; Arduino</span>
+                        <span class="span">JAVA & Kotlin ; C ; Php ; Arduino</span>
 
                         <span class="value">85%</span>
                       </div>
@@ -413,6 +435,7 @@
                     </li>
 
                   </ul>
+                  <br>
 
                 </div>
 
@@ -459,15 +482,12 @@
         </div>
       </section>
 
-
-
-
-
-      <!-- 
+          <!-- 
         - #PROJECTS
       -->
 
       <section class="section project" aria-label="my latest projects" id="project">
+        <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
 
         <ul class="slider-list">
 
@@ -514,7 +534,7 @@
                 <p class="card-subtitle">Produit web</p>
 
                 <h3 class="title h3">
-                  Front End développemen & Maintenance
+                  Front End développement & Maintenance
                 </h3>
               </div>
 
@@ -621,7 +641,7 @@
 
               <input type="text" name="name" placeholder="Nom Complet" autocomplete="off" required class="input-field">
 
-              <input type="email" name="email_address" placeholder="Address E-mail" autocomplete="off" required
+              <input type="email" name="email_address" placeholder="Addrese mail" autocomplete="off" required
                 class="input-field">
 
               <input type="tel" name="phone" placeholder="Phone" autocomplete="off" class="input-field">
@@ -733,7 +753,6 @@
 
 
 
-
   <!-- 
     - #CUSTOM CURSOR
   -->
@@ -755,13 +774,14 @@
   -->
   <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
   <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
   <script src="https://static.elfsight.com/platform/platform.js" data-use-service-core defer></script>
   <div class="elfsight-app-cf118963-5899-4e04-a5a1-532b4c0682b6"></div>
 
   <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
   <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 
-	
+  
 
 </body>
 
