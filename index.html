@@ -612,22 +612,17 @@
 
           <div class="contact-content">
 
-            <form  method="post" class="contact-form">
+            <form action="contact.php" method="post" class="contact-form">
 
-              <input type="text" name="name" placeholder="Nom Complet" autocomplete="off" required class="input-field">
+              <input type="text" name="user_name" placeholder="Nom Complet" autocomplete="off" required class="input-field">
 
-              <input type="email" name="email" placeholder="Addrese mail" autocomplete="off" required
+              <input type="email" name="user_email" placeholder="Addrese mail" autocomplete="off" required
                 class="input-field">
 
-              <input type="tel" name="phone" placeholder="Phone" autocomplete="off" class="input-field">
+              <textarea name="user_message" placeholder="Enter votre message" required class="input-field"></textarea>
 
-              <textarea name="message" placeholder="Enter votre message" required class="input-field"></textarea>
-
-              <button type="submit" class="btn btn:hover">
+              <button type="submit" name="valider" class="btn btn:hover">
                  <span class="span">Envoyé</span>
-                
-                  
-                
 
                 <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
               </button>
