@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 
 <head>
   <meta charset="UTF-8">
@@ -20,7 +20,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="./assets/font/font.css">
-  <link rel="stylesheet" href="./mail.php">
+  
  
 
   <!-- 
@@ -612,11 +612,11 @@
 
           <div class="contact-content">
 
-            <form action="mail.php" method="post" class="contact-form">
+            <form  method="post" class="contact-form">
 
               <input type="text" name="name" placeholder="Nom Complet" autocomplete="off" required class="input-field">
 
-              <input type="email" name="email_address" placeholder="Addrese mail" autocomplete="off" required
+              <input type="email" name="email" placeholder="Addrese mail" autocomplete="off" required
                 class="input-field">
 
               <input type="tel" name="phone" placeholder="Phone" autocomplete="off" class="input-field">
@@ -625,6 +625,25 @@
 
               <button type="submit" class="btn btn:hover">
                  <span class="span">Envoyé</span>
+                
+                   <?php
+                     if (isset($_POST['message'])) {
+                       $entete  = 'MIME-Version: 1.0' . "\r\n";
+                       $entete .= 'Content-type: text/html; charset=utf-8' . "\r\n";
+                       $entete .= 'From: webmaster@github.io' . "\r\n";
+                       $entete .= 'Reply-to: ' . $_POST['email'];
+
+                       $message = '<h1>Message envoyé depuis la page Contact de github.io</h1>
+                       <p><b>Nom Complet : </b>' . $_POST['name'] . '<br>
+                       <b>Addrese mail: </b>' . $_POST['email'] . '<br>
+                       <b>Phone: </b>' . $_POST['phone'] . '<br>
+                       <b>Message : </b>' . htmlspecialchars($_POST['message']) . '</p>';
+
+                       $retour = mail('chilavertndah99@gmail.com', 'Envoi depuis page Contact', $message, $entete);
+                       if($retour)
+                       echo '<p>Votre message a bien été envoyé.</p>';
+                       }
+                  ?>
                 
 
                 <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
