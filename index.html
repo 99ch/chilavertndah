@@ -626,24 +626,7 @@
               <button type="submit" class="btn btn:hover">
                  <span class="span">Envoyé</span>
                 
-                   <?php
-                     if (isset($_POST['message'])) {
-                       $entete  = 'MIME-Version: 1.0' . "\r\n";
-                       $entete .= 'Content-type: text/html; charset=utf-8' . "\r\n";
-                       $entete .= 'From: webmaster@github.io' . "\r\n";
-                       $entete .= 'Reply-to: ' . $_POST['email'];
-
-                       $message = '<h1>Message envoyé depuis la page Contact de github.io</h1>
-                       <p><b>Nom Complet : </b>' . $_POST['name'] . '<br>
-                       <b>Addrese mail: </b>' . $_POST['email'] . '<br>
-                       <b>Phone: </b>' . $_POST['phone'] . '<br>
-                       <b>Message : </b>' . htmlspecialchars($_POST['message']) . '</p>';
-
-                       $retour = mail('chilavertndah99@gmail.com', 'Envoi depuis page Contact', $message, $entete);
-                       if($retour)
-                       echo '<p>Votre message a bien été envoyé.</p>';
-                       }
-                  ?>
+                  
                 
 
                 <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
