@@ -574,8 +574,8 @@ body.nav-active { overflow: hidden; }
 }
 .name span {
    display: inline-block;
-   padding-right: 5px;
-   font-size: 70px;
+   padding-right: 0;
+   font-size: 60px;
   font-family: 'Courier New', Courier, monospace;
   color: rgb(11 218 50);
 }
