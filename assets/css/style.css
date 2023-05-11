@@ -189,7 +189,7 @@ html {
 }
 
 body {
-  background-color: var(--bg-black);
+  background-color: var(--white);
   color: var(--text-light-gray);
   font-family: var(--fontFamily-roboto);
   font-size: var(--fontSize-8);
@@ -281,7 +281,7 @@ body.nav-active { overflow: hidden; }
 [data-tilt] { transition: var(--transition-3); }
 
 .title {
-  color: var(--text-white);
+  color: hsla(0, 0%, 6%, 1);
   font-family: var(--fontFamily-recoleta);
   font-weight: var(--weight-regular);
 }
@@ -645,7 +645,7 @@ body.nav-active { overflow: hidden; }
 
 .service-card {
   height: 100%;
-  background-color: var(--white);
+  background-color: var(--majorelle-blue);
   padding-block-end: 40px;
   border-block-end: 3px solid transparent;
   box-shadow: var(--shadow-3);
