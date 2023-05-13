@@ -701,9 +701,6 @@ body.nav-active { overflow: hidden; }
 /*-----------------------------------*\
   #ABOUT
 \*-----------------------------------*/
-.section-about{
-  background-color: hsla(0, 0%, 0%, 1);
-}
 
 .tab-container { border: 1px solid var(--border-eerie-black); }
 
