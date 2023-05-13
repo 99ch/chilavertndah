@@ -917,14 +917,11 @@ body.nav-active { overflow: hidden; }
   #CONTACT
 \*-----------------------------------*/
 
-.section-contact{
-  background-color:hsla(0, 0%, 0%, 1);
-}
 
-
-.contact .section-title {
+.contact .section-title .section-contact {
   font-size: var(--fontSize-1);
   margin-block-end: 25px;
+  background-color:hsla(0, 0%, 0%, 1);
 }
 
 .contact-content {
