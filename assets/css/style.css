@@ -918,10 +918,10 @@ body.nav-active { overflow: hidden; }
 \*-----------------------------------*/
 
 
-.contact .section-title .section-contact {
+.contact .section-title  {
   font-size: var(--fontSize-1);
   margin-block-end: 25px;
-  background-color:hsla(0, 0%, 0%, 1);
+ 
 }
 
 .contact-content {
