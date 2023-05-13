@@ -189,7 +189,7 @@ html {
 }
 
 body {
-  background-color: var(--white);
+  background-color: var(--bg-black);
   color: var(--text-light-gray);
   font-family: var(--fontFamily-roboto);
   font-size: var(--fontSize-8);
