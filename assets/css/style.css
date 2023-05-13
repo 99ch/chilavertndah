@@ -20,7 +20,7 @@
   /* background colors */
   --bg-white: rgb(34, 96, 45);
   --bg-light-gray: rgb(141, 141, 153);
-  --bg-jet: #fff;
+  --bg-jet: hsl(230, 60%, 98%);
   --bg-eerie-black: rgb(238, 227, 20);
   --bg-rich-black-fogra-29: rgb(142, 142, 154);
   --bg-smoky-black: hsl(10, 83%, 37%);
