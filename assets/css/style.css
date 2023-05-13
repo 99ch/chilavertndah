@@ -906,6 +906,24 @@ body.nav-active { overflow: hidden; }
 
 
 
+/*-----------------------------------*\
+  #TESTIMONIALS
+\*-----------------------------------*/
+
+.testi { border-block: 1px solid var(--border-eerie-black); }
+
+.testi-content { padding-inline-start: 15px; }
+
+.testi .section-text {
+  text-indent: -15px;
+  line-height: 1.5;
+  margin-block-end: 20px;
+}
+
+.profile-card .card-banner { display: none; }
+
+.profile-card .card-subtitle { font-size: var(--fontSize-10); }
+
 
 
 
@@ -917,6 +935,9 @@ body.nav-active { overflow: hidden; }
   #CONTACT
 \*-----------------------------------*/
 
+.section-contact{
+  background-color:  var(--border-eerie-black);
+}
 
 .contact .section-title  {
   font-size: var(--fontSize-1);
