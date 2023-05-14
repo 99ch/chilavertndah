@@ -516,8 +516,10 @@ body.nav-active { overflow: hidden; }
   pointer-events: all;
 }
 
-.logo{ color: #2e8ac4;}
-
+.logo
+{ 
+  color:var( --bg-white); 
+}
 
 
 
